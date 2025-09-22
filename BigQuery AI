@@ -1,0 +1,58 @@
+This subfolder contains hands-on projects, notebooks, and pipelines that demonstrate how to leverage BigQuery AI to build real-world Generative AI and Machine Learning applications directly inside the data warehouse.
+
+BigQuery AI enables:
+
+ML.GENERATE_TEXT → Run LLMs (e.g., Gemini) inside SQL for text generation, query answering, and reasoning.
+
+ML.GENERATE_EMBEDDING → Convert text, images, and structured data into embeddings for semantic search and retrieval.
+
+VECTOR_SEARCH → Perform similarity search across large-scale embedding tables with millisecond response times.
+
+BigQuery ML Models → Train and deploy traditional models (time-series, regression, classification, uplift modeling).
+
+ Included Projects
+ Video Fashion Search
+
+Download YouTube videos and extract frames.
+
+Analyze fashion items with Gemini Vision via ML.GENERATE_TEXT.
+
+Create embeddings of queries and products with ML.GENERATE_EMBEDDING.
+
+Match detected items against a product catalog using VECTOR_SEARCH.
+
+Display results visually with side-by-side comparisons.
+
+- Customer Segmentation & Uplift Modeling
+
+Use RFM features and customer history.
+
+Apply uplift modeling in BigQuery ML to identify “Persuadables” (customers most influenced by campaigns).
+
+Optimize print mailing and digital marketing strategies.
+
+- Text-to-SQL Agent
+
+Natural language → SQL translation using ML.GENERATE_TEXT.
+
+Enables business users to query complex data without writing SQL.
+
+Example: “Show me sales by category in Berlin last quarter” → auto-generated SQL.
+
+- Embedding Search Demo
+
+Generate embeddings for product descriptions and metadata.
+
+Use VECTOR_SEARCH to enable semantic product discovery.
+
+Supports “similar product” search, cross-selling, and personalized recommendations.
+
+-  Why BigQuery AI?
+
+No data movement → AI runs where your data already lives.
+
+Scalable → Handles billions of rows and vectors.
+
+Integrated → Works seamlessly with Vertex AI and Gemini models.
+
+Practical → Real-world applications in retail, finance, and marketing.
